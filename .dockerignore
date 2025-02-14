@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+.nyc_output
+
+# Build
+dist
+build
+
+# Environment
+.env
+.env.*
+
+# IDE
+.idea
+.vscode
+*.sublime-*
+.project
+.classpath
+.c9
+*.launch
+.settings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Version Control
+.git
+.gitignore
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Development
+*.md
+LICENSE
+.editorconfig
+.prettierrc
+.eslintrc
+jest.config.js
+test
+
+# Docker
+.docker
+Dockerfile*
+docker-compose*
